@@ -1,5 +1,12 @@
 # To create a decorator in python
 
+# Original simple function that adds two numbers
+def addition1(n1, n2):
+    print(n1)
+    print(n2)
+    print(n1 + n2)
+    return n1 + n2
+
 # Decorator to decorate and extend the original function
 def decorate_output(func):
     # Inner function that wraps the original logic
@@ -28,14 +35,6 @@ def decorate_output(func):
         return r
 
     return wrapper  # Return the inner function
-
-
-# Original simple function that adds two numbers
-def addition1(n1, n2):
-    print(n1)
-    print(n2)
-    print(n1 + n2)
-    return n1 + n2
 
 # Function call: normal, undecorated version
 addition1(10, 20)
