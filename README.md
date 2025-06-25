@@ -102,6 +102,3 @@ The addition of the three numbers is:
 * The original function remains unchanged and reusable.
 * The decorator adds formatting, messaging, and logic enhancements.
 * Ideal for wrapping logging, validation, or formatting around functions without editing them.
-
-```
-```
